@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "screenshotgallery",
+  "version": "${version}",
+  "name": "Screenshot Gallery",
+  "description": "Schicke Screenshot-Galerie: Taste druecken (Standard F6), alle Screenshots ansehen, vergroessern und in die Zwischenablage kopieren.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.screenshotgallery.ScreenshotGalleryClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
